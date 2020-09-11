@@ -72,26 +72,26 @@ python = 3.7
 	r08922194
 	|___src
 		|___model_state #每個模型各自的model_state
-					|___seq_tag
-							|__ckpt.10.pt #bash download.sh會產生
-					|___seq2seq
-							|__ckpt.6.pt #bash download.sh會產生
-					|___attention
-							|__ckpt.20.pt #bash download.sh會產生
-			|___xxxx.py #所有模型會用到的程式碼和畫圖的程式碼
-	|___scripts
-			|___scorer_abstractive.py #計算分數
-			|___score_extractive.py #計算分數
-	|___datasets
 			|___seq_tag
-				|___embedding.pkl #bash download.sh會產生
-				|___test.pkl # bash extractive.sh會產生
+					|__ckpt.10.pt #bash download.sh會產生
 			|___seq2seq
-				|___embedding.pkl #bash download.sh會產生
-				|___test.pkl # bash seq2seq.sh會產生 
+					|__ckpt.6.pt #bash download.sh會產生
 			|___attention
-				|___embedding.pkl #bash download.sh會產生
-				|___test.pkl # bash attention.sh會產生
+					|__ckpt.20.pt #bash download.sh會產生
+		|___xxxx.py #所有模型會用到的程式碼和畫圖的程式碼
+	|___scripts
+		|___scorer_abstractive.py #計算分數
+		|___score_extractive.py #計算分數
+	|___datasets
+		|___seq_tag
+			|___embedding.pkl #bash download.sh會產生
+			|___test.pkl # bash extractive.sh會產生
+		|___seq2seq
+			|___embedding.pkl #bash download.sh會產生
+			|___test.pkl # bash seq2seq.sh會產生 
+		|___attention
+			|___embedding.pkl #bash download.sh會產生
+			|___test.pkl # bash attention.sh會產生
 	|___requirements.txt
 	|___README.md
 	|___install_packages.sh
