@@ -1,4 +1,4 @@
 # NTU-ADL
-## summarization : hw1
-## bert : hw2
-## rl : hw3
+* summarization : hw1
+* bert : hw2
+* rl : hw3
